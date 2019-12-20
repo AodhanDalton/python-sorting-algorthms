@@ -13,13 +13,15 @@ usr = input("Size of array: ")
 arr = [random.randint(1,1000) for _ in range(usr)]
 
 # for loop with the selection sort inside it
+print(color.GREEN + "Size %d" %usr)
+
 for i in range (len(arr)):
 
-    min = i 
+    min = i
     for j in range (i+1, len(arr)):
         if arr[min] > arr[j]:
             min = j
-    
+
     # swapping the values 
     arr[i], arr[min] = arr[min], arr[i]
     tmp = arr[i]
