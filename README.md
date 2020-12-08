@@ -1,2 +1,2 @@
 # python-sorting-algorthms
-Visualisation of python sorting algorthms
+Python sorting algorthms
